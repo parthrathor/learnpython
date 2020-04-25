@@ -1,10 +1,10 @@
 import math
 
-
 def CalculatePi(roundVal):
     somepi = round(math.pi,roundVal);
     pi = str(somepi)
     someList = list(pi)
+    somepi = someList(''.join)
     return somepi;
 roundTo = input('Enter the number of digits you want after decimal')
 try:
